@@ -1,0 +1,15 @@
+- A.vim
+- NERDTree
+- Tagbard
+- Vim airline
+- Pathogen
+- Desktop:
+    Byobu:
+        - S+F2 H. Split
+        - C+F2 V. Split
+        - S+arrows Move
+        - S+F11 zoom
+        - F5 reload
+        - F2 new window
+        - F3 move window
+        - f8 rename window
