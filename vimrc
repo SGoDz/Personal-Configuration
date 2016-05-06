@@ -3,6 +3,10 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 nmap <F8> :TagbarToggle<CR>
+"Features
+set nocompatible
+filetype indent plugin on
+syntax on
 
 "colorscheme
 syntax enable
@@ -18,3 +22,8 @@ set expandtab
 set smartindent
 set showmatch
 
+set nu
+set rnu
+
+" Delete background clor
+hi Normal ctermbg=none
