@@ -1,0 +1,12 @@
+List of users
+svn log --quiet | grep "^r" | awk '{print $3}' | sort | uniq
+
+Edit file authors.txt
+
+mkdir project && cd project
+git init
+git svn init http://svn.com/proj --no-metadata
+git config svn.authorsfile ~/authors.txt
+git svn fetch
+
+http://jmoses.co/2014/03/21/moving-from-svn-to-git.html
