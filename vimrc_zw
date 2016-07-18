@@ -1,0 +1,33 @@
+execute pathogen#infect()
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+set nocompatible
+syntax on
+
+set ruler "shows line and column of the cursor"
+set autoindent
+filetype plugin indent on
+" " show existing tab with 4 spaces width
+set tabstop=4
+" " when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" " On pressing tab, insert 4 spaces
+set expandtab
+
+set nu
+set rnu
+set clipboard=unnamed
+
+set nobackup
+function! NumberToggle()
+    if(&relativenumber == 1)
+        set nornu
+        set nonu
+    else
+        set rnu
+        set nu
+    endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
