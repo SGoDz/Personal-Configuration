@@ -19,7 +19,6 @@ set nu
 set rnu
 set clipboard=unnamed
 
-set nobackup
 function! NumberToggle()
     if(&relativenumber == 1)
         set nornu
@@ -31,3 +30,13 @@ function! NumberToggle()
 endfunc
 
 nnoremap <C-n> :call NumberToggle()<cr>
+
+hi clear cursorline     " clear cursorline options
+hi cursorline term=bold cterm=bold guibg=white
+hi cursorlinenr ctermfg=cyan ctermbg=16
+set cursorline          " highlight current line
+
+hi Search guibg=peru guifg=wheat
+hi Search cterm=italic ctermfg=cyan ctermbg=NONE
+set hlsearch
+" " nohlsearch
