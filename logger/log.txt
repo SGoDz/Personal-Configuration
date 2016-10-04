@@ -1,0 +1,10 @@
+[Tue Oct  4 19:00:50 2016] [main.c][line: 10] Hello World 
+[Tue Oct  4 19:00:50 2016] [main.c][line: 11] Zing is back !!! Bitter Truth 199
+[Tue Oct  4 19:00:50 2016] [main.c][line: 10] Hello World 
+[Tue Oct  4 19:00:50 2016] [main.c][line: 11] Zing is back !!! Bitter Truth 200
+[Tue Oct  4 19:00:50 2016] [main.c][line: 10] Hello World 
+[Tue Oct  4 19:00:50 2016] [main.c][line: 11] Zing is back !!! Bitter Truth 201
+[Tue Oct  4 19:00:50 2016] [main.c][line: 10] Hello World 
+[Tue Oct  4 19:00:50 2016] [main.c][line: 11] Zing is back !!! Bitter Truth 202
+[Tue Oct  4 19:00:50 2016] [main.c][line: 10] Hello World 
+[Tue Oct  4 19:00:50 2016] [main.c][line: 11] Zing is back !!! Bitter Truth 203
