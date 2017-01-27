@@ -1,0 +1,22 @@
+set nocompatible
+syntax on
+
+set ruler "shows line and column of the cursor"
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+set nu
+set rnu
+
+function! NumberToggle()
+    if(&relativenumber == 1)
+        set nornu
+        set nonu
+    else
+        set rnu
+        set nu
+    endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
